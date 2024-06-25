@@ -1,0 +1,7 @@
+This is to test inti from local and connect to the remote repo
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <<Git Remote Repo>>
+git push -u origin main
