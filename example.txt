@@ -7,3 +7,5 @@ git branch -M main
 #git remote add <<Git Remote Repo Branch Name>> <<Git Remote Repo>>
 git remote add main https://github.com/Nithi-Github/local-remote-repo.git
 #git push -u <<Git Remote Repo Branch Name>> <<Git local repo Branch to be pushed>>
+git push -u main master
+
