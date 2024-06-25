@@ -8,6 +8,8 @@ git branch -M main
 git remote add origin https://github.com/Nithi-Github/local-remote-repo.git
 #git push -u <<Git Remote Repo local Name>> <<Git local repo Branch to be pushed>>
 git push -u origin main
+or 
+git push --set-upstream origin main
 #This created the branch main in the Remote repo and is considered as the default branch
 
 #To view details of the origin use
@@ -16,6 +18,6 @@ git remote show origin
 git remote -v
 #TO rename the local remote ref name 
 git remote rename <<Remote repo local name>> <<New Remote repo local name>>
-
-
-
+# To change the Remote Repo that "origin" is pointing to
+git remote set-url <remote_name> <new_url>
+git remote set-url origin https://github.com/Nithi-Github/new-local-remote-repo.git
