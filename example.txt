@@ -1,7 +1,9 @@
-This is to test inti from local and connect to the remote repo
+This is to test init from local and connect to the remote repo
 git init
 git add .
 git commit -m "first commit"
+# Rename the branch (default "master") to "main"
 git branch -M main
-git remote add origin <<Git Remote Repo>>
-git push -u origin main
+#git remote add <<Git Remote Repo Branch Name>> <<Git Remote Repo>>
+git remote add main https://github.com/Nithi-Github/local-remote-repo.git
+#git push -u <<Git Remote Repo Branch Name>> <<Git local repo Branch to be pushed>>
