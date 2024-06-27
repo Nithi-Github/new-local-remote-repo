@@ -21,3 +21,10 @@ git remote rename <<Remote repo local name>> <<New Remote repo local name>>
 # To change the Remote Repo that "origin" is pointing to
 git remote set-url <remote_name> <new_url>
 git remote set-url origin https://github.com/Nithi-Github/new-local-remote-repo.git
+
+#To switch to Feature Branch in remote locally
+git checkout master #move to master branch
+git pull #Upates the changes in the master Branch
+git checkout <<Remote Branch Name>> creates a local Branch with same name as Remote Branch
+git checkout -b <<New Branch Naeme>> <<origin/Remote Branch Name>>
+ 
