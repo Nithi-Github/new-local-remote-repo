@@ -30,8 +30,10 @@ git checkout -b <<New Branch Naeme>> <<origin/Remote Branch Name>>
  
 #Import Points
 #git pull pulls the changes that the Branch it is in is refering to. 
+
 git checkout master
 git pull #Pulls all the changes to the master Branch
+
 git checkout FeatureBranch
 git pull #Pulls all the changes to the Feature Branch
 
