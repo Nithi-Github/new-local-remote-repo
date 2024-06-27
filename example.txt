@@ -36,9 +36,14 @@ git pull #Pulls all the changes to the master Branch
 git checkout FeatureBranch
 git pull #Pulls all the changes to the Feature Branch
 
-To move certain files from one Branch to another
+#To move certain files from one Branch to another
 git checkout master
 git checkout branch1 testfile.txt
+git checkout branch1 testfile.txt  secondfile thridfilepath
 #This moves/overwrites the file in the master Branch. This can then be commited
+
+#To merge the changes from master to your Feature Branch
+git checkout BranchName
+git merge master #This might cause conflicts. Resolve conflicts and push changes
 
 
