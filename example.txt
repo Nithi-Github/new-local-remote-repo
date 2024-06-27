@@ -28,13 +28,17 @@ git pull #Upates the changes in the master Branch
 git checkout <<Remote Branch Name>> creates a local Branch with same name as Remote Branch
 git checkout -b <<New Branch Naeme>> <<origin/Remote Branch Name>>
  
-#Import Points
-#git pull pulls the changes that the Branch it is in is refering to. 
+#Import Points - git pull pulls the changes that the Branch it is in is refering to. 
 
 git checkout master
 git pull #Pulls all the changes to the master Branch
 
 git checkout FeatureBranch
 git pull #Pulls all the changes to the Feature Branch
+
+To move certain files from one Branch to another
+git checkout master
+git checkout branch1 testfile.txt
+#This moves/overwrites the file in the master Branch. This can then be commited
 
 
